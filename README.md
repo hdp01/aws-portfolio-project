@@ -1,4 +1,4 @@
-# 🌐 AWS Portfolio Hosting with Terraform & GitHub Actions
+# 🌐 Static Portfolio Hosting on AWS using Terraform & GitHub Actions
 
 Deploy your static portfolio website using **AWS S3**, **CloudFront**, **Terraform**, and **GitHub Actions** for CI/CD.
 
@@ -19,6 +19,8 @@ Deploy your static portfolio website using **AWS S3**, **CloudFront**, **Terrafo
 aws-portfolio-project/
 ├── public/                # Static site files
 ├── terraform/             # Terraform configs
+├── docs/                  # Documentation files
+│   └── AWS_Portfolio_Project_Documentation.pdf
 └── .github/workflows/     # GitHub Actions pipeline
 ```
 
@@ -39,7 +41,7 @@ All AWS resources have been removed to avoid ongoing costs.
 4. **Upload your static site files** to the S3 bucket.
 5. **Configure GitHub Actions** with your AWS secrets for automatic deployment.
 
-For detailed instructions, see the [documentation (PDF)](./Documentation.pdf).
+For detailed instructions, see the [documentation (PDF)](./docs/AWS_Portfolio_Project_Documentation.pdf).
 
 ---
 
@@ -53,7 +55,8 @@ For detailed instructions, see the [documentation (PDF)](./Documentation.pdf).
 
 ## 📄 Documentation
 
-For detailed setup, configuration, and troubleshooting, please see the [full documentation (PDF)](./Documentation.pdf).
+For complete setup, configuration, and troubleshooting, please see the  
+[**Static Portfolio Hosting on AWS using Terraform & GitHub Actions** (PDF)](./docs/AWS_Portfolio_Project_Documentation.pdf).
 
 ---
 
