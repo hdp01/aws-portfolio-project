@@ -20,7 +20,6 @@ aws-portfolio-project/
 ├── public/                # Static site files
 ├── terraform/             # Terraform configs
 ├── docs/                  # Documentation files
-│   └── AWS_Portfolio_Project_Documentation.pdf
 └── .github/workflows/     # GitHub Actions pipeline
 ```
 
